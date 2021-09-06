@@ -1,1 +1,1 @@
-export { Hole, html, svg, render } from 'uhtml/async'
+export * from 'uhtml/async'
