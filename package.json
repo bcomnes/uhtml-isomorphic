@@ -1,7 +1,7 @@
 {
   "name": "uhtml-isomorphic",
   "description": "Isomorphic exports of uhtml",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
     "url": "https://github.com/bcomnes/uhtml-isomorphic/issues"
