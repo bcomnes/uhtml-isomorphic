@@ -1,7 +1,7 @@
 # uhtml-isomorphic
 [![Actions Status](https://github.com/bcomnes/uhtml-isomorphic/workflows/tests/badge.svg)](https://github.com/bcomnes/uhtml-isomorphic/actions)
 
-Isomorphic exports of uhtml
+Isomorphic exports of [uhtml][uhtml]
 
 ```
 npm install uhtml-isomorphic
@@ -34,3 +34,6 @@ It supports the following export fields:
 ## License
 
 MIT
+
+[uhtml]: https://github.com/WebReflection/uhtml
+[ssr]: https://github.com/WebReflection/uhtml-ssr
