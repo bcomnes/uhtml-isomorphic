@@ -1,6 +1,6 @@
 {
   "name": "uhtml-isomorphic",
-  "description": "WIP - nothing to see here",
+  "description": "Isomorphic exports of uhtml",
   "version": "0.0.2",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
@@ -19,14 +19,23 @@
   "homepage": "https://github.com/bcomnes/uhtml-isomorphic",
   "keywords": [],
   "license": "MIT",
-  "type": "module",
   "main": "./node.cjs",
-  "browser": "./browser.cjs",
+  "browser": {
+    ".": "./browser.cjs",
+    "./async.js": "./async.browser.cjs"
+  },
   "module": "./browser.mjs",
   "exports": {
-    "browser": "./browser.mjs",
-    "import": "./node.mjs",
-    "require": "./node.cjs"
+    ".": {
+      "browser": "./browser.mjs",
+      "import": "./node.mjs",
+      "require": "./node.cjs"
+    },
+    "./async": {
+      "browser": "./async.browser.mjs",
+      "import": "./async.mjs",
+      "require": "./async.cjs"
+    }
   },
   "repository": {
     "type": "git",
