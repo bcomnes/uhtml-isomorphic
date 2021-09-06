@@ -24,6 +24,7 @@
   "browser": "./browser.cjs",
   "module": "./browser.mjs",
   "exports": {
+    "browser": "./browser.mjs",
     "import": "./node.mjs",
     "require": "./node.cjs"
   },
