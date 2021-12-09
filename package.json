@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "uhtml": "^2.7.6",
-    "uhtml-ssr": "^0.7.4"
+    "uhtml-ssr": "^0.8.0"
   },
   "devDependencies": {
     "auto-changelog": "^2.2.0",
