@@ -7,7 +7,7 @@
     "url": "https://github.com/bcomnes/uhtml-isomorphic/issues"
   },
   "dependencies": {
-    "uhtml": "^4.1.8",
+    "uhtml": "^5.0.9",
     "uhtml-ssr": "^0.9.1"
   },
   "devDependencies": {
